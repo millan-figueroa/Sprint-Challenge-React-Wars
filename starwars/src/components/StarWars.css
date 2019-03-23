@@ -9,19 +9,21 @@
     color: seashell;
     border: solid rgb(71, 71, 71);
     border-width: 3px;
+    border-radius: 10px;
     width: 200px;
-    height: 300px;
+    height: 350px;
     margin: 10px;
-
-
-border-radius: 10px;
+    
 }
 
 .char-img {
     margin: 0;
     width: 200px;
     height: 150px;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 5px solid white;
+    border-bottom: 10px solid rgba(255, 230, 0, 0.877);
     background-image: url('https://lumiere-a.akamaihd.net/v1/images/og-generic_02031d2b.png?region=0%2C0%2C1200%2C1200');
     background-size: 100% auto;
     background-position: 45% 45%;
