@@ -2,24 +2,27 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center
 }
 .char-card {
-    background-color: white;
-    color: black;
+    background-color: rgba(0, 0, 0, 0.431);
+    color: seashell;
+    border: solid rgb(71, 71, 71);
+    border-width: 3px;
     width: 200px;
     height: 300px;
     margin: 10px;
 
 
-border-radius: 5px;
+border-radius: 10px;
 }
 
 .char-img {
-    margin: 2% auto;
-    width: 175px;
-    height: 75px;
-
+    margin: 0;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
     background-image: url('https://lumiere-a.akamaihd.net/v1/images/og-generic_02031d2b.png?region=0%2C0%2C1200%2C1200');
     background-size: 100% auto;
-    background-position: 50% 50%;
+    background-position: 45% 45%;
 }
