@@ -1,9 +1,16 @@
 .App {
   text-align: center;
+  align-items: center;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  width: 80%;
+  margin: 40px 40px 40px 70px;
+  color:rgba(0, 0, 0, 0.623);
+  text-shadow: 1px 1px 7px #fff;
+  border: solid black 2px;  
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.589);
+  padding: 7px;
 }
 /* write your parent styles in here for your App.js */
 
@@ -11,4 +18,8 @@ ul, ol, li {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; 
+  text-shadow: none;
+  color: rgb(255, 253, 161);  
 }
